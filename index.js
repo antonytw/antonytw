@@ -7,5 +7,4 @@ function contact() {
   else {
     alert ("Looks like you changed your mind :)")
   }
-
 }
