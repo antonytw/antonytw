@@ -1,0 +1,68 @@
+* {
+  margin:0;
+  border:0;
+  box-sizing: border-box;
+}
+
+.jumbotron {
+  color: white;
+  font-family: Georgia, serif;
+  font-weight: bold;
+  height: 30rem;
+  background: url('new-york.jpg') no-repeat center;
+  background-size: cover;
+}
+
+h1{
+  text-align: center;
+  font-size: 10em;
+}
+
+.jumbotron, .container, h1 {
+  padding-top: 0.5em;
+}
+
+.navbar-form input {
+  width: 20em;
+  float:right;
+}
+
+.navbar-form {
+  display: flex;
+}
+.navbar-form button {
+  margin-left: 1rem;
+  height: 2.25em;
+  float: right;
+}
+
+body {
+  text-align: center;
+  font-family: "Microsoft Yahei", Helvetica, sans-serif;
+}
+
+.section-intro, container {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .section-left {
+  text-align: left;
+}
+
+.section-right {
+  text-align: right;
+}
+}
+.hero, .container, p{
+  text-align: center;
+}
+
+footer {
+  margin-top: 10rem;
+  text-align: left;
+}
+footer, img {
+  width: 2em;
+}
