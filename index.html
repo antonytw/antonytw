@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Antony & Co.</title>
+  <title>Antony</title>
   <!-- meta always comes first -->
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
   <meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
@@ -9,9 +9,11 @@
   <link rel="stylesheet" href="index.css" type="text/css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Damion">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <!--jQuery, Bootstrap JS -->
+  <!--jQuery, Bootstrap JS, index JS -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+
 
 <body>
 
@@ -19,14 +21,11 @@
     <div class="container-fluid hero">
       <ul class="nav nav-pills">
         <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
-        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href=#>Abou Me<span class="caret"></span></a></li>
-          <ul class="dropdown-menu">
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
+        <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
         <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
       </ul>
-    </div>
+    </div>s
   </header>
 
   <div class="jumbotron" id="home">
@@ -76,9 +75,9 @@
       <p class="col-xs-4">&copy; Antony 2020</p>
     </div>
     <div class="row justify-content-center" id="social-media">
-      <img class="col-xs-1" src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/facebook-grey.svg" alt="facebook" />
-      <img class="col-xs-1" src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/twitter-grey.svg" alt="twitter"/>
-      <img class="col-xs-1" src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/instagram-grey.svg" alt="instagram"/>
+      <img class="col-xs-1" src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/facebook-grey.svg" alt="facebook" onclick="contact()"/>
+      <img class="col-xs-1" src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/twitter-grey.svg" alt="twitter" onclick="contact()"/>
+      <img class="col-xs-1" src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/instagram-grey.svg" alt="instagram" onclick="contact()"/>
     </div>
 
   </footer>

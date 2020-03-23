@@ -22,20 +22,6 @@ h1{
   padding-top: 0.5em;
 }
 
-.navbar-form input {
-  width: 20em;
-  float:right;
-}
-
-.navbar-form {
-  display: flex;
-}
-.navbar-form button {
-  margin-left: 1rem;
-  height: 2.25em;
-  float: right;
-}
-
 body {
   text-align: center;
   font-family: "Microsoft Yahei", Helvetica, sans-serif;
